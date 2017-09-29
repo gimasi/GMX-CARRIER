@@ -9,7 +9,7 @@ It breakouts the GMX bus enabling quick prototyping of your next IoT module. But
 <br/>
 Here the back side of the board, with the label of the GMX bus breakout.<br/>
 <br/>
-<img src="/docs/carrier_back.png"/>
+<img src="/docs/carrier_back_2.png"/>
 <br/>
 <br/>
 The carrier board has been designed for ultra low power nodes. When connected to the battery the overall power footpring of the module is around 3uA.<br/>
