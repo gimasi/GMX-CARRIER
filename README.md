@@ -9,6 +9,7 @@ It breakouts the GMX bus enabling quick prototyping of your next IoT module. But
 <br/>
 Here the back side of the board, with the label of the GMX bus breakout.<br/>
 <br/>
+<br/>
 <img src="/docs/carrier_back_2.png"/>
 <br/>
 <br/>
@@ -25,7 +26,7 @@ The carrier board has 4 jumpers that allow different behaviours.<br/>
 
 
 # Connectors, Leds and Buttons 
-The board has a LiPO battery connector and an USB. The USB connection is used both to charge the LiPO battery - when charging the D1 green led will turn on and will go off when battery is charged - and to connect to the FTDI USB/Serial converter that connects to the GMX BUS serial port.<br/>
-The push button on the left of the battery connector can be used to turn on and turn off ( keep button pressed to turn off board) or to send a reset signal to the GMX BUS.<br/>
-The red D2 LED will turn on - if the respective jumper is connected - whenn the board is powered on.
+The board has a LiPO battery and an USB connector. The USB connection is used both to charge the LiPO battery - when charging the D1 green led will turn on and will go off when battery is charged - and to connect to the FTDI USB/Serial converter that connects to the GMX BUS serial port.<br/>
+The push button on the left of the battery connector can be used to turn on and turn off ( keep button pressed 5 seconds to turn off board) or to send a reset signal to the GMX BUS.<br/>
+The red D2 LED will turn on - if the respective jumper is connected - when the board is powered.
 
