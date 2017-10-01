@@ -16,16 +16,16 @@ The carrier board has been designed for ultra low power nodes. When connected to
 <br/>
 # Board Jumpers
 The carrier board has 4 jumpers that allow different behaviours.<br/>
-<img src="/docs/carrier1_label.png"/>
+<img src="/docs/carrier1_label.png"/><br/>
 <br/>
-* A => auto power on. When connected the board turns on automatically when power is applied. If removed you need to push the push button to turn on the board.
-* B => handles the STM32 bootloader. When connected GMX modules that have an STM32 MCU  (like the GMX-LR1) will enter bootloader mode.
-* C => connects the Power On LED. Normally is not connected to save power.
-* D => enables the step-up converter for 5V on the GMX bus, normally this voltage is not necessary, to save power it is recommended to keep it removed.
+* <b>A</b> auto power on. When connected the board turns on automatically when power is applied. If removed you need to push the push button to turn on the board.
+* <b>B</b> handles the STM32 bootloader. When connected GMX modules that have an STM32 MCU  (like the GMX-LR1) will enter bootloader mode.
+* <b>C</b> connects the Power On LED. Normally is not connected to save power.
+* <b>D</b> enables the step-up converter for 5V on the GMX bus, normally this voltage is not necessary, to save power it is recommended to keep it removed.
+
 <br/>
 # Connectors, Leds and Buttons 
 The board has a LiPO battery connector and an USB. The USB connection is used both to charge the LiPO battery - when charging the D1 green led will turn on and will go off when battery is charged - and to connect to the FTDI USB/Serial converter that connects to the GMX BUS serial port.<br/>
 The push button on the left of the battery connector can be used to turn on and turn off ( keep button pressed to turn off board) or to send a reset signal to the GMX BUS.<br/>
 The red D2 LED will turn on - if the respective jumper is connected - whenn the board is powered on.
-
 
