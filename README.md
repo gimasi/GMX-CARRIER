@@ -9,7 +9,6 @@ It breakouts the GMX bus enabling quick prototyping of your next IoT module. But
 <br/>
 Here the back side of the board, with the label of the GMX bus breakout.<br/>
 <br/>
-<br/>
 <img src="/docs/carrier_back_2.png"/>
 <br/>
 <br/>
@@ -17,6 +16,7 @@ The carrier board has been designed for ultra low power nodes. When connected to
 <br/>
 # Board Jumpers
 The carrier board has 4 jumpers that allow different behaviours.<br/>
+<br/>
 <img src="/docs/carrier1_label.png"/><br/>
 <br/>
 * <b>A</b> auto power on. When connected the board turns on automatically when power is applied. If removed you need to push the push button to turn on the board.
@@ -26,7 +26,8 @@ The carrier board has 4 jumpers that allow different behaviours.<br/>
 
 
 # Connectors, Leds and Buttons 
-The board has a LiPO battery and an USB connector. The USB connection is used both to charge the LiPO battery - when charging the D1 green led will turn on and will go off when battery is charged - and to connect to the FTDI USB/Serial converter that connects to the GMX BUS serial port.<br/>
+The board has a LiPO battery and an USB connector. The USB connection is used both to charge the LiPO battery - when charging the <b>D1</b> green led will turn on and will go off when battery is charged - and to connect to the FTDI USB/Serial converter that connects to the GMX BUS serial port.<br/>
 The push button on the left of the battery connector can be used to turn on and turn off ( keep button pressed 5 seconds to turn off board) or to send a reset signal to the GMX BUS.<br/>
-The red D2 LED will turn on - if the respective jumper is connected - when the board is powered.
+The red <b>D2</b> LED will turn on - if the respective jumper is connected - when the board is powered.<br/>
+Finally the <b>P1</b> connector, which is an 10 pin ARM mini jtag (SWD) which can be used to program GMX Modules which support SWD programing. 
 
